@@ -1,6 +1,6 @@
-const Input = ({placeholder, name}: {placeholder: string, name: string}) => {
+const Input = ({placeholder, name, type}: {placeholder: string, name: string, type: string}) => {
   return (
-    <input placeholder={placeholder} name={name} />
+    <input placeholder={placeholder} name={name} type={type}/>
   )
 }
 export { Input }
