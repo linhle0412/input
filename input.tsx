@@ -1,6 +1,6 @@
-const Input = () => {
+const Input = ({placeholder}: {placeholder: string}) => {
   return (
-    <input />
+    <input placeholder={placeholder} />
   )
 }
 export { Input }
